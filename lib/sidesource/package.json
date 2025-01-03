@@ -1,0 +1,49 @@
+{
+  "name": "sidesource",
+  "type": "module",
+  "version": "1.0.3",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "naturecodevoid",
+    "url": "https://naturecodevoid.dev/"
+  },
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/sidestore"
+  },
+  "homepage": "https://sidestore.io/SideSource",
+  "repository": "github:SideStore/SideSource",
+  "bugs": {
+    "url": "https://github.com/SideStore/SideSource/issues"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.191",
+    "chalk": "^5.2.0",
+    "json5": "^2.2.3",
+    "lodash": "^4.17.21",
+    "sidestore-source-types": "^1.0.2"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20221111.1",
+    "@octokit/openapi-types": "^16.0.0",
+    "@trivago/prettier-plugin-sort-imports": "^4.0.0",
+    "prettier": "^2.8.3",
+    "ts-json-schema-generator": "^1.2.0",
+    "ts-patch": "^2.1.0",
+    "typedoc": "^0.23.24",
+    "typescript": "^4.9.4",
+    "typescript-transform-paths": "^3.4.6",
+    "typia": "^3.4.22"
+  },
+  "scripts": {
+    "build": "rm -r dist/ && tsc && ts-json-schema-generator -p './lib/struct/config.ts' -o dist/schema.json && typedoc lib/struct/typedoc.ts --searchInComments --gitRevision main",
+    "prepublish": "bun run build",
+    "check": "tsc --noEmit",
+    "format": "prettier --plugin @trivago/prettier-plugin-sort-imports --config ~/.prettierrc.json ./lib ./example/src ./example/config --write"
+  }
+}

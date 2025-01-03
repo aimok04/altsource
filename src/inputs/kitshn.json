@@ -1,0 +1,33 @@
+{
+    "type": "github",
+    "repo": "aimok04/kitshn",
+    "tag": "latest",
+    "appMetadata": {
+        "name": "kitshn (for Tandoor)",
+        "bundleIdentifier": "de.kitshn.appleios",
+        "developerName": "aimok04",
+        "localizedDescription": "An unofficial client for the self-hosted Tandoor recipe management software.\nPlease note that the app is currently in alpha phase. You can of course open issues on Github for bugs, feedback, and feature ideas.\nIcon made by Freepik from www.flaticon.com",
+        "tintColor": "FBC618",
+        "iconURL": "https://altsource.kitshn.app/assets/kitshn/icon.png",
+        "category": "lifestyle",
+        "screenshotURLs": [
+            "https://altsource.kitshn.app/assets/kitshn/screenshots/iphone/01.png",
+            "https://altsource.kitshn.app/assets/kitshn/screenshots/iphone/02.png",
+            "https://altsource.kitshn.app/assets/kitshn/screenshots/iphone/03.png",
+            "https://altsource.kitshn.app/assets/kitshn/screenshots/iphone/04.png",
+            "https://altsource.kitshn.app/assets/kitshn/screenshots/iphone/05.png",
+            "https://altsource.kitshn.app/assets/kitshn/screenshots/iphone/06.png",
+            "https://altsource.kitshn.app/assets/kitshn/screenshots/iphone/07.png",
+            "https://altsource.kitshn.app/assets/kitshn/screenshots/iphone/08.png",
+            "https://altsource.kitshn.app/assets/kitshn/screenshots/iphone/09.png",
+            "https://altsource.kitshn.app/assets/kitshn/screenshots/iphone/10.png",
+            "https://altsource.kitshn.app/assets/kitshn/screenshots/iphone/11.png",
+            "https://altsource.kitshn.app/assets/kitshn/screenshots/iphone/12.png",
+            "https://altsource.kitshn.app/assets/kitshn/screenshots/ipad/01.png",
+            "https://altsource.kitshn.app/assets/kitshn/screenshots/ipad/02.png",
+            "https://altsource.kitshn.app/assets/kitshn/screenshots/ipad/03.png",
+            "https://altsource.kitshn.app/assets/kitshn/screenshots/ipad/04.png"
+        ]
+    },
+    "versionLambda": "function:versionRemoveStartingV"
+}

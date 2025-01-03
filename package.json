@@ -1,0 +1,11 @@
+{
+  "name": "aimok04-altsource-gen",
+  "version": "1.0.0",
+  "type": "module",
+  "author": "aimok04",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "sidesource": "^1.0.3"
+  }
+}
